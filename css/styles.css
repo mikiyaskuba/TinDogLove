@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+}
+.title {
+	background-color: red;
+}
+.navbar {
+	padding: 5% 10%;
+}
+.both {
+	padding: 5% 15%;
+}
+.one {
+	font-size: 3.1rem;
+	font-weight: 900;
+}
+.imgg {
+	position: absolute;
+	right: 30px;
+	top: 150px;
+}
+.img-1 {
+	width: 60%;
+	transform: rotate(25deg);
+}
+#features {
+	position: relative;
+	z-index: 1;
+
+	padding: 7% 15% 0;
+	text-align: center;
+	background-color: azure;
+}
+.icon {
+	font-size: 90px;
+	color: brown;
+}
+
+.icon:hover {
+	color: red;
+}
+.img-2,
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	margin-bottom: 5%;
+}
+#testimonials {
+	background-color: brown;
+	text-align: center;
+}
+.divo {
+}
+h2 {
+	margin: 5% 15%;
+}
+.carousel-item {
+	text-align: center;
+}
+.pp {
+	background-color: brown;
+	padding: 0 15%;
+}
+.pp div img {
+	width: 70%;
+}
+#pricing {
+	padding: 3% 5%;
+	text-align: center;
+}
+.columnone {
+	text-align: center;
+}
+#pricing h2,
+h3 {
+	font-weight: 900;
+}
+#cta {
+	background-color: red;
+	padding: 5% 15%;
+	text-align: center;
+}
+#footer {
+	text-align: center;
+}
+@media (max-width: 1000px) {
+	.imgg {
+		position: static;
+	}
+	.img-1 {
+		transform: rotate(0deg);
+	}
+}
